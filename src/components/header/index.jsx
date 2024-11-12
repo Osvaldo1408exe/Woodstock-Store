@@ -12,7 +12,7 @@ export function Header() {
 
     return (
         <header>
-            <div className="container">
+            <div className="header-container">
                 <div className="logoContainer">
                     <img src="public/logo.svg" alt="logo" className="logo" />
                     <h1>Woodstock Store</h1>

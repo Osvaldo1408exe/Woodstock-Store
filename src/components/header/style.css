@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.container {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,6 +82,11 @@ a {
 
 
 @media (max-width: 985px) {
+
+    h1{
+        font-size: 20px;
+    }
+
      
     .menu-icon {
         display: block;  
@@ -110,5 +115,7 @@ a {
 
     .list-pages li, .list-user li {
         margin: 10px 0; 
+        font-size: 12px;
+
     }
 }
