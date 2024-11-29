@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import Styles from './Component.module.css';
 
-export function Header() {
+export default function Header() {
     const [menuAberto, setMenuAberto] = useState(false);
 
     const alternarMenu = () => {

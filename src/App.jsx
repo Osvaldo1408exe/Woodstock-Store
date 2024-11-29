@@ -1,14 +1,10 @@
-import MainBanner from "./components/banners/mainBanner"
-import Footer from "./components/footer"
-import { Header } from "./components/header"
+import Home from "./pages/home"
 
 function App() {
   
   return (
     <>
-      <Header/>
-      <MainBanner/>
-      <Footer/>
+      <Home/>
     </>
   )
 }
