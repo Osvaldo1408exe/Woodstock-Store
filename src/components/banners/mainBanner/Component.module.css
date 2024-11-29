@@ -1,0 +1,108 @@
+/* Container Principal */
+.collection {
+  position: relative;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  height: 500px; /* altura fixa para a seção */
+  margin: 10px auto;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Imagem de fundo */
+.imageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Mantém a imagem no fundo */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+
+/* Card */
+.infoContainer {
+  position: relative; /* Necessário para sobreposição */
+  z-index: 2;  
+  margin-left: 350px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);  
+  max-width: 400px; 
+}
+
+.subtitle {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #b00d1e;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #b00d1e;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+}
+
+.btn:hover {
+  border: 1px solid  #b00d1e;
+  background-color: #ffffff;
+  color: #b00d1e;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .collection {
+    height: auto; /* Ajusta a altura no mobile */
+  }
+
+  .infoContainer {
+    margin-left: 150px;
+    width: 40%;  
+    height: 10%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  
+  .subtitle {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b00d1e;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    
+    object-fit: cover;
+  }
+}

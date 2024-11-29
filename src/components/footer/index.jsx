@@ -1,13 +1,14 @@
-import './style.css'
+import Styles from'./Component.module.css'
 export default function Footer() {
     return (
+        <>
         <footer >
-            <div className="footer-container">
-                <div className="lists">
-                    <div className="logo">
+            <div>
+                <div className={Styles.lists}>
+                    <div className={Styles.logo}>
                         <a href="#"><p>Woodstock</p></a>
                     </div>
-                    <div className="links">
+                    <div className={Styles.links}>
                         <p>Links</p>
                         <ul>
                             <li><a href="#">Home</a></li>
@@ -16,7 +17,7 @@ export default function Footer() {
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
-                    <div className="help">
+                    <div className={Styles.help}>
                         <ul>
                             <p>Help</p>
                             <li><a href="#">Payment Options</a></li>
@@ -26,8 +27,9 @@ export default function Footer() {
                     
                     </div>
                 </div>
-                <p className="copy">© 2024 Woodstock Store. Developed by Osvaldo Protazio</p>
+                <p className={Styles.copy}>© 2024 Woodstock Store. Developed by Osvaldo Protazio</p>
             </div>
             </footer>
+        </>
     );
 }

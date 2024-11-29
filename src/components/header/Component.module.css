@@ -1,0 +1,105 @@
+
+  /* Component.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  position: relative;
+  z-index: 100;
+}
+
+.navbarLogo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbarMenu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarMenu li {
+  margin: 0 15px;
+}
+
+.navbarMenu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbarMenu a:hover {
+  color: #B40F00;
+}
+
+/* Estilos para os botões */
+.navbarButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 5px 15px;
+  border: 1px solid #B40F00;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #B40F00;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #B40F00;
+  color: #fff;
+}
+
+.login {
+  margin-right: 5px;
+}
+
+.register {
+  margin-left: 5px;
+}
+
+/* Menu responsivo */
+.menuIcon {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+  .navbarMenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .navbarMenu.active {
+    display: flex;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+}
