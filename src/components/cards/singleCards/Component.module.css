@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    height: auto;  /* Ajusta a altura automaticamente */
+    background-color: #F4F5F7;
+    overflow: hidden;
+    box-sizing: border-box; 
+}
+
+.card p {
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+
+}
+
+.card img {
+    width: 200px;
+    height: 240px;  
+    object-fit: cover;  
+}
+
+.album {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.band {
+    color: #898989;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: auto; /* Garante que o preço fique no final do card */
+}

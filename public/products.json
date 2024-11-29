@@ -1,133 +1,170 @@
 [
   {
+    "id": 1,
     "photoPath": "/albums/acidBath.jpeg",
     "band": "Acid Bath",
+    "genre": "sludge metal",
     "album": "When the Kite String Pops",
     "price": 12.99,
     "summary": "A landmark in sludge metal, Acid Bath's debut combines dark, brooding lyrics with heavy guitar riffs and a raw, aggressive sound. This album is a raw exploration of the human condition, steeped in despair, chaos, and a sense of nihilism."
   },
   {
+    "id": 2,
     "photoPath": "/albums/bendsRadioHead.jpg",
     "band": "Radiohead",
+    "genre": "alternative rock",
     "album": "The Bends",
     "price": 14.99,
     "summary": "A defining album in alternative rock, 'The Bends' features Radiohead's ability to blend emotional depth with innovative sounds. Themes of alienation, anxiety, and the search for meaning permeate through every track, showcasing the band's ability to evolve musically."
   },
   {
+    "id": 3,
     "photoPath": "/albums/BlackFlag_Damaged.jpeg",
-    "band": "Black Flag",
+    "genre": "hardcore punk",
     "album": "Damaged",
     "price": 11.99,
     "summary": "Black Flag’s ‘Damaged’ is a relentless, high-energy punk rock album that captures the aggression and frustration of the genre. A landmark in hardcore punk, it speaks to themes of personal struggle, defiance, and a rejection of societal norms."
   },
   {
+    "id": 4,
     "photoPath": "/albums/BlackFlag_MyWar.jpg",
     "band": "Black Flag",
+    "genre": " ",
     "album": "My War",
     "price": 12.49,
     "summary": "My War showcases Black Flag’s move into heavier and more experimental territory. Combining punk with elements of metal and slow, sludgy rhythms, this album tackles themes of inner conflict, disillusionment, and societal detachment."
   },
   {
+    "id": 5,
     "photoPath": "/albums/chetBaker_sings.jpg",
     "band": "Chet Baker",
+    "genre": "jazz",
     "album": "Chet Baker Sings",
     "price": 13.99,
     "summary": "Chet Baker’s 'Chet Baker Sings' is a timeless collection of smooth jazz vocals and subtle trumpet solos. With a delicate, melancholic charm, this album captures the essence of Baker’s emotional expression, evoking both vulnerability and elegance."
   },
   {
+    "id": 6,
     "photoPath": "/albums/dirt_AliceInChains.jpg",
     "band": "Alice in Chains",
+    "genre": "grunge",
     "album": "Dirt",
     "price": 15.99,
     "summary": "Dirt is an iconic grunge album from Alice in Chains that combines heavy, brooding riffs with haunting, introspective lyrics. A perfect reflection of the band's internal struggles, the album is a raw exploration of addiction, depression, and self-doubt."
   },
   {
+    "id": 7,
     "photoPath": "/albums/disintegration_theCure.jpg",
     "band": "The Cure",
+    "genre": "gothic rock",
     "album": "Disintegration",
     "price": 16.99,
     "summary": "The Cure’s 'Disintegration' is a masterclass in atmospheric, melancholy music. With its lush production, haunting lyrics, and soaring melodies, the album explores themes of love, loss, and the passage of time, cementing the band’s legacy in gothic and alternative rock."
   },
   {
-    "photoPath": "/albums/jar-of-flies.jpg",
+    "id": 8,
+    "photoPath": "/albums/jar-of-flies_.jpg",
     "band": "Alice in Chains",
+    "genre": "grunge",
     "album": "Jar of Flies",
     "price": 13.49,
     "summary": "A stark contrast to their heavier albums, 'Jar of Flies' is an acoustic-driven record that conveys deep emotion. It features introspective lyrics and haunting melodies, capturing the fragility of life and the painful journey of self-discovery."
   },
   {
+    "id": 9,
     "photoPath": "/albums/joy-division-unknown-pleasures.jpg",
     "band": "Joy Division",
+    "genre": "post-punk",
     "album": "Unknown Pleasures",
     "price": 14.99,
     "summary": "Joy Division’s 'Unknown Pleasures' is an atmospheric post-punk masterpiece, combining dark, ethereal melodies with haunting, introspective lyrics. The album captures feelings of isolation and despair, while delivering a sound that is both innovative and timeless."
   },
   {
+    "id": 10,
     "photoPath": "/albums/killing joke from the vaults.jpg",
     "band": "Killing Joke",
+    "genre": "post-punk",
     "album": "From the Vaults",
     "price": 12.99,
     "summary": "Killing Joke’s 'From the Vaults' showcases the band's uncompromising mix of industrial rock and post-punk, filled with politically charged lyrics and intense, driving rhythms. The album captures the essence of the band's influence on alternative and metal scenes."
   },
   {
+    "id": 11,
     "photoPath": "/albums/ledzeppelinIII.jpg",
     "band": "Led Zeppelin",
+    "genre": "hard rock",
     "album": "Led Zeppelin III",
     "price": 17.49,
     "summary": "Combining hard rock and acoustic folk, 'Led Zeppelin III' is a groundbreaking album that highlights the band's musical versatility. With tracks like 'Immigrant Song,' it delivers powerful, mystical rock anthems alongside serene, introspective acoustic numbers."
   },
   {
+    "id": 12,
     "photoPath": "/albums/LifeIsKillingMe-font.jpg",
     "band": "Type O Negative",
+    "genre": "gothic rock", 
     "album": "Life Is Killing Me",
     "price": 14.99,
     "summary": "Type O Negative’s 'Life Is Killing Me' delivers a gothic blend of humor and melancholy. The album balances dark, atmospheric soundscapes with dry wit, touching on themes of death, love, and existential despair with a unique, almost theatrical flair."
   },
   {
+    "id": 13,
     "photoPath": "/albums/ohms-deftones.jpg",
     "band": "Deftones",
+    "genre": "nu metal",
     "album": "Ohms",
     "price": 15.99,
     "summary": "Deftones’ 'Ohms' is a masterful mix of atmospheric metal and alternative rock, blending heavy guitar riffs with ethereal vocals. The album explores themes of personal struggle and emotional depth, while maintaining a dynamic, unpredictable sound."
   },
   {
+    "id": 14,
     "photoPath": "/albums/sisters-of-mercy.jpeg",
     "band": "The Sisters of Mercy",
+    "genre": "gothic rock",
     "album": "Floodland",
     "price": 14.99,
     "summary": "The Sisters of Mercy’s 'Floodland' is a cornerstone of gothic rock, with its lush, atmospheric sound and brooding, poetic lyrics. The album captures the essence of the gothic movement, combining dark, haunting melodies with themes of despair and longing."
   },
   {
+    "id": 15,
     "photoPath": "/albums/songs of a lost world.jpg",
     "band": "The Cure",
+    "genre": "gothic rock",
     "album": "Songs of a Lost World",
     "price": 16.49,
     "summary": "'Songs of a Lost World' presents The Cure at their most introspective. The album is filled with atmospheric, melancholic tunes, exploring themes of memory, loss, and emotional resilience, making it a deep reflection on the band's enduring legacy."
   },
   {
+    "id": 16,
     "photoPath": "/albums/suede.png",
     "band": "Suede",
+    "genre": "britpop",
     "album": "Coming Up",
     "price": 13.99,
     "summary": "Suede’s 'Coming Up' is a vibrant Britpop album, filled with energetic anthems and catchy melodies. The album mixes glam rock influences with modern alternative sounds, reflecting the optimism and intensity of the 90s music scene."
   },
   {
+    "id": 17,
     "photoPath": "/albums/The sound from the lions mouth-thesound.jpg",
     "band": "The Sound",
+    "genre": "post-punk",
     "album": "From the Lion's Mouth",
     "price": 14.99,
     "summary": "With its emotionally charged sound, 'From the Lion's Mouth' is a post-punk masterpiece that mixes jangly guitars and introspective lyrics. The album conveys a sense of urgency, capturing themes of existential dread and the search for meaning."
   },
   {
+    "id": 18,
     "photoPath": "/albums/the_cure_wish.jpeg",
     "band": "The Cure",
+    "genre": "gothic rock",
     "album": "Wish",
     "price": 15.49,
     "summary": "The Cure's 'Wish' is a beautiful combination of dreamy pop and melancholic goth rock. With its lush soundscapes and reflective lyrics, the album explores love, longing, and emotional complexity, cementing the band’s place in both the mainstream and alternative scenes."
   },
   {
+    "id": 19,
     "photoPath": "/albums/The_Queen_is_Dead-the-smiths.jpg",
     "band": "The Smiths",
+    "genre": "britpop",
     "album": "The Queen is Dead",
     "price": 16.99,
     "summary": "With sharp wit and jangly guitars, 'The Queen is Dead' by The Smiths captures the essence of British indie rock. The album mixes politically charged lyrics with themes of alienation and personal introspection, making it a defining moment for the band."
