@@ -35,5 +35,37 @@
 .price {
     font-size: 20px;
     font-weight: bold;
-    margin-top: auto; /* Garante que o preço fique no final do card */
+    margin-top: auto; 
+}
+
+@media (max-width: 500px) {
+    .card {
+       
+        max-width: 150px;
+        max-height: 200px;
+        
+    }
+    
+    .card img {
+        max-width: 150px;
+        max-height: 100px; 
+        object-fit: cover;  
+    }
+    .card p {
+        padding: 1px;
+        margin-left: 4px;
+    }
+    
+    .album {
+        font-size: 14px;
+    }
+    
+    .band {
+        font-size: 14px;
+     }
+    
+    .price {
+        font-size: 16px;
+         
+    }
 }

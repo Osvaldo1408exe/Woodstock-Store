@@ -20,6 +20,7 @@
   {
     "id": 3,
     "photoPath": "/albums/BlackFlag_Damaged.jpeg",
+    "band": "Black Flag",
     "genre": "hardcore punk",
     "album": "Damaged",
     "price": 11.99,
@@ -29,7 +30,7 @@
     "id": 4,
     "photoPath": "/albums/BlackFlag_MyWar.jpg",
     "band": "Black Flag",
-    "genre": " ",
+    "genre": "hardcore punk",
     "album": "My War",
     "price": 12.49,
     "summary": "My War showcases Black Flag’s move into heavier and more experimental territory. Combining punk with elements of metal and slow, sludgy rhythms, this album tackles themes of inner conflict, disillusionment, and societal detachment."

@@ -102,4 +102,13 @@
   .menuIcon {
     display: block;
   }
+  .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .navbarLogo {
+    font-size: 12px;
+  }
+  
 }

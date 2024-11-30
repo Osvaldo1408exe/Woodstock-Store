@@ -1,4 +1,5 @@
  import MainBanner from "../components/banners/mainBanner";
+import MainButton from "../components/Buttons/mainButton";
 import HomeCard from "../components/cards/homeCard";
 import SingleCards from "../components/cards/singleCards";
 import Footer from "../components/footer";
@@ -37,7 +38,13 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-
+            <div style={{ textAlign: "center" }}>
+                <MainButton 
+                link="/products"
+                text="show more"
+                />
+            </div>
+           
             <Footer />
         </>
     );

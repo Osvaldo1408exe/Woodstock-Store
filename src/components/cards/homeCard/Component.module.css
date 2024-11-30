@@ -54,3 +54,13 @@
     }
 }
 
+
+@media (max-width: 500px) {
+    .card img{
+        width: 110px;
+        height: 110px;
+       
+    }
+}
+
+
