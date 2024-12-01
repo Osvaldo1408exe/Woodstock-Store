@@ -30,6 +30,13 @@ a:hover{
 }
 
 @media (max-width: 552px) {
+    .lists{
+        margin-top: 10%;
+        bottom: 5%;
+        width: 80%;
+        margin-right: 0;
+       
+    }
     h1{
         font-size: 20px;
     }

@@ -4,9 +4,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px;
+  margin-bottom: 40px ;
   background-color: #fff;
-  position: relative;
+  position: abs;
   z-index: 100;
 }
 
@@ -52,7 +53,6 @@
 .btn {
   padding: 5px 15px;
   border: 1px solid #B40F00;
-  border-radius: 5px;
   background-color: transparent;
   color: #B40F00;
   font-size: 14px;
@@ -102,8 +102,14 @@
   .menuIcon {
     display: block;
   }
+
+  .navbarButtons {
+    display: flex;
+    gap: 1px;
+  }
+
   .btn {
-    padding: 5px 10px;
+    padding: 3px 6px;
     font-size: 12px;
   }
 

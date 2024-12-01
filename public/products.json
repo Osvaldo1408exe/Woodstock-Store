@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "photoPath": "/albums/joy-division-unknown-pleasures.jpg",
+    "photoPath": "/albums/joy-division-unknow-pleasures.jpg",
     "band": "Joy Division",
     "genre": "post-punk",
     "album": "Unknown Pleasures",
@@ -91,16 +91,16 @@
   },
   {
     "id": 11,
-    "photoPath": "/albums/ledzeppelinIII.jpg",
+    "photoPath": "/albums/ledzepellinII.jpg",
     "band": "Led Zeppelin",
     "genre": "hard rock",
-    "album": "Led Zeppelin III",
+    "album": "Led Zeppelin II",
     "price": 17.49,
     "summary": "Combining hard rock and acoustic folk, 'Led Zeppelin III' is a groundbreaking album that highlights the band's musical versatility. With tracks like 'Immigrant Song,' it delivers powerful, mystical rock anthems alongside serene, introspective acoustic numbers."
   },
   {
     "id": 12,
-    "photoPath": "/albums/LifeIsKillingMe-font.jpg",
+    "photoPath": "/albums/LifeIsKillingMe-tont.jpg",
     "band": "Type O Negative",
     "genre": "gothic rock", 
     "album": "Life Is Killing Me",
@@ -127,7 +127,7 @@
   },
   {
     "id": 15,
-    "photoPath": "/albums/songs of a lost world.jpg",
+    "photoPath": "/albums/songs of a lost word.jpeg",
     "band": "The Cure",
     "genre": "gothic rock",
     "album": "Songs of a Lost World",
@@ -145,7 +145,7 @@
   },
   {
     "id": 17,
-    "photoPath": "/albums/The sound from the lions mouth-thesound.jpg",
+    "photoPath": "/albums/The sound from the lions mouth-thesound.jpeg",
     "band": "The Sound",
     "genre": "post-punk",
     "album": "From the Lion's Mouth",

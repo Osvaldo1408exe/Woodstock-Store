@@ -6,6 +6,10 @@
     
     font-family: poppins;
 }
+body{
+    overflow-x: hidden;
+
+}
 
 .albumList {
     display: flex;           
