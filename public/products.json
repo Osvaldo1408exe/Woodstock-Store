@@ -169,5 +169,22 @@
     "album": "The Queen is Dead",
     "price": 16.99,
     "summary": "With sharp wit and jangly guitars, 'The Queen is Dead' by The Smiths captures the essence of British indie rock. The album mixes politically charged lyrics with themes of alienation and personal introspection, making it a defining moment for the band."
-  }
+  },{
+    "id": 20,
+    "photoPath": "/albums/NINDownwardSpiral.jpg",
+    "band": "Nine Inch Nails",
+    "genre": "industrial rock",
+    "album": "The Downward Spiral",
+    "price": 15.99,
+    "summary": "A groundbreaking industrial rock album, 'The Downward Spiral' by Nine Inch Nails delves into themes of self-destruction, despair, and existential crises. With haunting melodies, raw emotions, and innovative production, this masterpiece is a visceral journey into the human psyche."
+	},
+	{
+    "id": 21,
+    "photoPath": "/albums/TypeONegativeOctoberRust.jpg",
+    "band": "Type O Negative",
+    "genre": "gothic metal",
+    "album": "October Rust",
+    "price": 17.99,
+    "summary": "Type O Negative's 'October Rust' is a gothic metal masterpiece that blends haunting melodies, dark humor, and romantic themes. Known for its atmospheric soundscapes and Peter Steele's deep vocals, this album is a must-listen for fans of melancholic and powerful music."
+	}
 ]

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Styles from './Component.module.css';
 
 export default function MainBanner() {
@@ -10,7 +11,7 @@ export default function MainBanner() {
                 <div className={Styles.infoCard}>
                     <p className={Styles.subtitle}>Releases</p>
                     <h1>Discover Our New Collection</h1>
-                    <button className={Styles.btn}>Buy Now</button>
+                    <Link to="/products" className={Styles.btn}>Buy Now</Link>
                 </div>
             </div>
         </section>

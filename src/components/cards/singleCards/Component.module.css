@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     max-width: 200px;
-    height: auto;  /* Ajusta a altura automaticamente */
+    height: auto; 
     background-color: #F4F5F7;
     overflow: hidden;
     box-sizing: border-box; 
@@ -19,6 +19,7 @@
     width: 200px;
     height: 240px;  
     object-fit: cover;  
+    transition: filter 0.3s ease;  
 }
 
 .album {
@@ -37,6 +38,39 @@
     font-weight: bold;
     margin-top: auto; 
 }
+
+.buyBtn{
+    display: none;
+    background-color: #B40F00;
+    color: #fff;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #898989;
+    background-color: #cccccc; 
+}
+
+.card:hover img {
+    filter: grayscale(100%) brightness(70%); 
+    z-index: 1;
+    
+}
+
+.card:hover .buyBtn {
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 2;
+    
+    
+   
+}
+
 
 @media (max-width: 500px) {
     .card {
