@@ -19,20 +19,19 @@ export default function Item() {
         <>
             <Header />
             <ItemBar album={item.album} />
-            <ProductPanel 
+            <ProductPanel key={item.id}
+            id={item.id}
             img={item.photoPath}
             album={item.album} 
             band={item.band} 
             price={item.price}
             description={item.summary}
             genre={item.genre}
-            //link para ir para o carrinho
-            LinkCart={"/"}
             />
               
             <h2 style={{ marginLeft: "40px", marginTop: "180px" }}>Related Products</h2>
             <Marquee pauseOnHover={true} pauseOnClick={true} speed={50}>
-                {data.map(item => (  // Usando 'data' para mapear os produtos
+                {data.map(item => (
                     <SingleCards
                         key={item.id}
                         id={item.id}

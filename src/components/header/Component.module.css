@@ -82,6 +82,11 @@
   cursor: pointer;
 }
 
+.cart{
+  margin-right: 5px;
+  margin: auto;
+}
+
 /* Estilos para telas menores */
 @media (max-width: 768px) {
   .navbarMenu {

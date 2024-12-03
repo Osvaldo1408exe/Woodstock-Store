@@ -1,11 +1,27 @@
 import Styles from './Component.module.css'
-import { Link, Links } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import {useCart} from '../../context/CartContext';
+
 
 
 export default function ProductPanel(props) {
+
+    const { addToCart } = useCart();
+
+    const item = {
+        id: props.id,
+        img: props.img,
+        album: props.album,
+        band: props.band,
+        price: props.price,
+        description: props.description,
+        genre: props.genre,
+    };
+    
+
     return (
         <div className={Styles.container}>
-            <img src={props.img} alt="Vinyl Record" className={Styles.image} />
+            <img src={props.img} alt="Album" className={Styles.image} />
             <div className={Styles.infoContainer}>
                 <div className={Styles.infoCard}>
                     <h1>{props.album}</h1>
@@ -20,7 +36,7 @@ export default function ProductPanel(props) {
                 <div className={Styles.buttons}>
                     <Link to={props.LinkCart} className={Styles.buyBtn}><button className={Styles.buyBtn}>Buy Now</button></Link>
                     
-                    <button className={Styles.cartBtn}>Add to Cart</button>
+                    <button className={Styles.cartBtn}  onClick={() => addToCart(item)}>Add to Cart</button>
                 </div>
             </div>
         </div>

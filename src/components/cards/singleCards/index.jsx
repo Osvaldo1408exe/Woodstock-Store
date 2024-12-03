@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import Styles from'./Component.module.css'
 
 export default function SingleCards(props) {
-    console.log(props);
     return (
         <>
             <div className={Styles.card}>
