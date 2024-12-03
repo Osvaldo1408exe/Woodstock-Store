@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #B40F00;
+    color: white;
+}
+
+.container p{
+    margin-left: 40px;
+   
+}
+.album{
+    color: white;
+    margin-left: 20px;
+}

@@ -1,13 +1,52 @@
-// import Styles from "./Component.module.css";
+import Header from "../../components/header";
+import ItemBar from "../../components/bars/item";
+import SingleCards from "../../components/cards/singleCards";
+import Footer from "../../components/footer";
 
+
+import data from '../../../public/products.json';
 import { useParams } from "react-router-dom";
+import ProductPanel from "../../components/productPanel";
+import Marquee from "react-fast-marquee";
+ 
+export default function Item() {
+    const {id} = useParams();
 
-export default function Item(){
-    const { id } = useParams();  // Acessando o id da URL
+    const item = data.find(item => item.id == id);
+ 
 
-    return(
-    <>
-        <h1>{id}</h1>
-    </>
-    )
+    return (
+        <>
+            <Header />
+            <ItemBar album={item.album} />
+            <ProductPanel 
+            img={item.photoPath}
+            album={item.album} 
+            band={item.band} 
+            price={item.price}
+            description={item.summary}
+            genre={item.genre}
+            //link para ir para o carrinho
+            LinkCart={"/"}
+            />
+              
+            <h2 style={{ marginLeft: "40px", marginTop: "180px" }}>Related Products</h2>
+            <Marquee pauseOnHover={true} pauseOnClick={true} speed={50}>
+                {data.map(item => (  // Usando 'data' para mapear os produtos
+                    <SingleCards
+                        key={item.id}
+                        id={item.id}
+                        photoPath={item.photoPath}
+                        album={item.album}
+                        band={item.band}
+                        price={item.price}
+                    />
+                ))}
+            </Marquee>
+
+
+            <Footer />
+
+        </>
+    );
 }

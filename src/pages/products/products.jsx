@@ -11,13 +11,13 @@ export default function Products() {
     const [albums, setAlbums] = useState([]);
     const [searchTerm, setSearchTerm] = useState(""); 
 
-     useEffect(() => {
+    useEffect(() => {
         fetch('./products.json')  
             .then((response) => response.json())
             .then((data) => setAlbums(data));
     }, []); 
 
-     const filteredAlbums = albums.filter((album) =>
+    const filteredAlbums = albums.filter((album) =>
         album.band.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
