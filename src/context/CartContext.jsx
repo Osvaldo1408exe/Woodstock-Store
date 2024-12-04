@@ -1,26 +1,52 @@
-// context/CarrinhoContext.js
 import React, { createContext, useState, useContext } from 'react';
 
-// Cria o contexto
-const CartContext = createContext();
+ const CartContext = createContext();
 
-// Provedor do contexto
-export const CartProvider = ({ children }) => {
-    const [cart, setCart] = useState([]);  // Estado para armazenar os itens
+ export const CartProvider = ({ children }) => {
+    const [cart, setCart] = useState([]);   
 
-    // adiciona um item ao carrinho
-    const addToCart = (product) => {
+     const addToCart = (product) => {
         setCart((prevCart) => {
-            const updatedCart = [...prevCart, product];
-            console.log("Item adicionado ao carrinho:", updatedCart); 
-            return updatedCart;  // Retorna o estado atualizado
+            const existingItem = prevCart.find((item) => item.id === product.id);
+
+            if (existingItem) {
+                 const updatedCart = prevCart.map((item) =>
+                    item.id === product.id
+                        ? { ...item, qty: item.qty + 1 }
+                        : item
+                );
+                console.log("Carrinho atualizado:", updatedCart);
+                return updatedCart;
+            } else {
+                
+                const updatedCart = [...prevCart, { ...product, qty: 1 }];
+                console.log("Item adicionado ao carrinho:", updatedCart);
+                return updatedCart;
+            }
         });
     };
-    
 
-    // remove um item do carrinho 
+     
     const removeFromCart = (productId) => {
-        setCart(prevCart => prevCart.filter(item => item.id !== productId));
+        setCart((prevCart) => {
+            const existingItem = prevCart.find((item) => item.id === productId);
+
+            if (existingItem && existingItem.qty > 1) {
+               
+                const updatedCart = prevCart.map((item) =>
+                    item.id === productId
+                        ? { ...item, qty: item.qty - 1 }
+                        : item
+                );
+                console.log("Quantidade decrementada:", updatedCart);
+                return updatedCart;
+            } else {
+               
+                const updatedCart = prevCart.filter((item) => item.id !== productId);
+                console.log("Item removido do carrinho:", updatedCart);
+                return updatedCart;
+            }
+        });
     };
 
     return (
@@ -29,6 +55,7 @@ export const CartProvider = ({ children }) => {
         </CartContext.Provider>
     );
 };
+
 
 export const useCart = () => {
     return useContext(CartContext);

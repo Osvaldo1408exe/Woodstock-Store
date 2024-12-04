@@ -34,7 +34,7 @@ export default function ProductPanel(props) {
                     <p className={Styles.genre}>{props.genre}</p>
                 </div>
                 <div className={Styles.buttons}>
-                    <Link to={props.LinkCart} className={Styles.buyBtn}><button className={Styles.buyBtn}>Buy Now</button></Link>
+                    <Link to="/cart" className={Styles.buyBtn}><button className={Styles.buyBtn} onClick={() => addToCart(item)}>Buy Now</button></Link>
                     
                     <button className={Styles.cartBtn}  onClick={() => addToCart(item)}>Add to Cart</button>
                 </div>

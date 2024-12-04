@@ -22,10 +22,10 @@ export default function Header() {
                     <span>WoodStock</span>
                 </div>
                 <ul className={menuAberto ? `${Styles.navbarMenu} ${Styles.active}` : Styles.navbarMenu}>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/products">Products</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/Cart">Cart</a></li>
+                    <Link to="/"><li>Home</li></Link>
+                    <Link to="/products"><li>Products</li></Link>
+                    <Link to="/about"><li>About</li></Link>
+                    <Link to="/Cart"><li>Cart</li></Link>
                 </ul>
                 <div className={Styles.navbarButtons}>
                     <div className={Styles.cart}>
