@@ -24,7 +24,7 @@ export default function Header() {
                 <ul className={menuAberto ? `${Styles.navbarMenu} ${Styles.active}` : Styles.navbarMenu}>
                     <Link to="/"><li>Home</li></Link>
                     <Link to="/products"><li>Products</li></Link>
-                    <Link to="/about"><li>About</li></Link>
+                    <Link to="/contact"><li>Contact</li></Link>
                     <Link to="/Cart"><li>Cart</li></Link>
                 </ul>
                 <div className={Styles.navbarButtons}>

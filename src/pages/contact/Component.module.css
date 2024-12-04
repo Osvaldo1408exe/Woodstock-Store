@@ -1,0 +1,59 @@
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px
+}
+.infoContainer h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.infoContainer p{
+    text-align: center;
+    color: #0000009f;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form label{
+    margin-bottom: 20px;
+}
+.form input{
+    height: 30px;
+    border: 1px solid rgb(172, 172, 172);  
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.form input:focus{
+    outline: none;
+    transform: translateY(-6px);
+}
+.form textarea{
+    width: 250px;	
+    height: 100px;
+    border: 1px solid rgb(172, 172, 172);  
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+.form textarea{
+    outline: none;
+}
+.form button{
+    margin-top: 10px;
+}

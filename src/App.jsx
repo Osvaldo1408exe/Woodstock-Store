@@ -5,8 +5,8 @@ import Products from "./pages/products/products";
 import Item from "./pages/item/item";
 import { CartProvider } from './context/CartContext';
 import Cart from "./pages/cart";
+import Contact from "./pages/contact/contact";
 
-const About = () => <h1>About Page</h1>;
 const NotFound = () => <h1>404 - Page Not Found</h1>;
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<Item />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
