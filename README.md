@@ -11,4 +11,3 @@
 - **Shopping Cart**: Manage items in the shopping cart.
 - **Responsive Interface**: Adapted for use on mobile and desktop devices.
 
-# System under development!!
